@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: auto;
+    width: 450px;
+    height: 800px;
+    border: 5px double #000;
+}
+
+.inicioJogo {
+    margin: auto;
+    margin-top: 5px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid #000;
+}
+
+.desenvolvimentoJogo {
+    margin: auto;
+    margin-top: 5px;
+    width: 350px;
+    height: 430px;
+    border: 1px solid #000;
+}
+
+/* inicioJogo */
+.titulo {
+    text-align: center;
+    padding: 5px;
+}
+
+.nomePlayer {
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.nomePlayer p {
+    margin-right: 20px;
+}
+
+.nomePlayer input {
+    width: 120px;
+}
+
+.card_placar {
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    padding: 5px; 
+    width: 300px;
+    height: 300px;
+}
+
+/* card_placar */
+.card {
+    margin-right: 5px;
+    width: 150px;
+    height: 240px;
+}
+
+.card h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.card .cardComprar {
+    margin: auto;
+    margin-top: 10px;
+    width: 120px;
+    height: 200px;
+    border: 1px solid #000;
+}
+
+.placarTotal {
+    width: 150px;
+    height: 240px;
+}
+
+.placarTotal h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.placar {
+    margin-top: 15px;
+    display: flex;  
+    justify-content: center;
+}
+
+.placarP1 {
+    width: 60px;
+    height: 100px;
+    margin-right: 2px;
+    border: 1px solid #000;
+}
+
+.placarP1 h4, .placarCom h4 {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.placarP1 p, .placarCom p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.placarCom {
+    width: 60px;
+    height: 100px;
+    border: 1px solid #000;
+}
+
+.btnComecar {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+#btnNovoJogo {
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#btnNovoJogo:hover {
+    background-color: mediumturquoise;
+}
+
+.numSorteados {
+    font-size: 12px;
+    margin-top: 5px;
+    width: 140px;
+    height: 30px;
+}
+
+/*desenvolvimentoJogo*/
+.player1 {
+    margin-top: 10px;
+    display: flex;
+    height: 30px;
+}
+
+.nome, .Com1 {
+    margin: 5px;
+    width: 110px;
+    font-weight: bold;
+}
+
+.player1Btn {
+    width: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.player1Btn button {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.player1Btn button:hover {
+    background-color: mediumturquoise;
+}
+
+.cardsP1, .cardsCom1 {
+    margin-top: 5px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 2px;
+    height: 150px;
+}
+
+.cardP1, .cardC1 {
+    width: 45px;
+    height: 60px;
+    border: 1px solid #000;
+}
+
+.vencedor {
+    display: flex;
+    height: 30px;
+}
+
+#vencedor {
+    font-size: 18px;
+    font-weight: bold;
+    color: red;
+}
+
+#nomeVencedor {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/style21.css">
+    <script src="scripts/script21.js" defer></script>
+    <title>Vinte e Um</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inicioJogo">
+            <div class="titulo">
+                <h2>VAMOS JOGAR 21!</h2>
+            </div>
+            <div class="nomePlayer">
+                <p>Nome do player: </p><input type="text" name="txtNome" id="txtNome">
+            </div>
+            <div class="card_placar">
+                <div class="card">
+                    <h3>Compre uma carta</h3>
+                    <div class="cardComprar"></div>
+                </div>
+                <div class="placarTotal">
+                    <h3>Placar</h3> 
+                    <div class="placar">
+                        <div class="placarP1">
+                            <h4 id="nomePlacar">Player</h4>
+                            <p id="p1">0</p>
+                        </div>
+                        <div class="placarCom">
+                            <h4>COM1</h4>
+                            <p id="c1">0</p>
+                        </div>
+                    </div>   
+                    <div class="btnComecar">
+                        <button id="btnNovoJogo">Novo Jogo</button>
+                    </div>
+                    <div class="numSorteados"></div>
+                </div>
+            </div>
+        </div>
+        <div class="desenvolvimentoJogo">
+            <div class="player1">
+                <div class="nome">
+                    <p id="nomeP1">Player1</p> 
+                </div>
+                <div class="player1Btn">
+                    <button id="btnComprar">Comprar +1</button>
+                    <button id="btnParar">Parar</button>
+                </div>
+            </div>
+            <div class="cardsP1">
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+                <div class="cardP1"></div>
+            </div>
+            <div class="numP1">1</div>
+            <div class="Com1">
+                <p>Computador</p>
+            </div>
+            <div class="cardsCom1">
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+                <div class="cardC1"></div>
+            </div>
+            <div class="numC1">1</div>
+            <div class="vencedor">
+                <p id="vencedor">Vencedor: </p>
+                <p id="nomeVencedor">Player/COM venceu com X pontos</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
