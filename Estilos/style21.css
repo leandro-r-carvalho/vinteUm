@@ -15,7 +15,6 @@
     margin-top: 5px;
     width: 350px;
     height: 350px;
-    border: 1px solid #000;
 }
 
 .desenvolvimentoJogo {
@@ -23,7 +22,6 @@
     margin-top: 5px;
     width: 350px;
     height: 430px;
-    border: 1px solid #000;
 }
 
 /* inicioJogo */
@@ -139,8 +137,14 @@
 .numSorteados {
     font-size: 12px;
     margin-top: 5px;
-    width: 140px;
+    width: 150px;
     height: 30px;
+    color: white;
+}
+
+.numP1, .numC1 {
+    font-size: 5px;
+    color: white;
 }
 
 /*desenvolvimentoJogo*/
@@ -187,6 +191,10 @@
 .cardP1, .cardC1 {
     width: 45px;
     height: 60px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 60px;
     border: 1px solid #000;
 }
 
@@ -196,12 +204,14 @@
 }
 
 #vencedor {
+    margin-left: 5px;
     font-size: 18px;
     font-weight: bold;
     color: red;
 }
 
 #nomeVencedor {
+    margin-left: 5px;
     font-size: 18px;
     font-weight: bold;
     color: #000;
